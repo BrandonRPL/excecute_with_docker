@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario express</title>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">Brandon Parra</a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/aboutUs.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </head>
+    <body>
+        <div   class="bg-image"
+        style="
+        background-image: url('https://miro.medium.com/v2/resize:fit:3840/1*ee9Ji2ToUxeYfj3YUQ1xsA.jpeg');
+        height: 100vh;
+        ">
+            <div class="container px-4 px-lg-5 h-100">
+                <div div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <form  action="/submit" method="post" class="d-flex justify-content-center p-2 bd-highlight ">
+                        <fieldset >
+                            <h1 class="fw-bold">Dejame tu nombre y email para contactarte</h1>
+                          <div class="mt-5 mb-3">
+                            <input type="text" name="name" id="name" placeholder="Nombre">
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" name="email" id="email" placeholder="Email">
+                          </div>
+                          <button type="submit" class="btn btn-dark">mandar</button>
+                        </fieldset>
+                      </form>
+                </div>
+            </div>
+        </div>  
+    </body>
